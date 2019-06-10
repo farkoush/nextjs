@@ -17,7 +17,7 @@ const Layout = props => (
       {props.children}
     </div>
   );
-// export default Layout;
+export default Layout;
 
 const Layout2 = Page =>{
     return()=>(
@@ -27,5 +27,5 @@ const Layout2 = Page =>{
       </div> 
     );
 }
-export default Layout2;
+// export default Layout2;
 
