@@ -4,7 +4,7 @@ import Layout2 from '../comps/MyLayout';
 // export default Layout2(Page);
 
 const aboutPageContent = <p>This is the about page</p>;
-export default function Index() {
+export default function About() {
   return (
     // <Layout>
     //   <p>Hello Next.js</p>

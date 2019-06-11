@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -148,7 +148,21 @@ var Header = function Header() {
       lineNumber: 13
     },
     __self: this
-  }, "About")));
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Contact")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -840,7 +854,7 @@ var Page = function Page(props) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!*****************************!*\
   !*** multi ./pages/post.js ***!
   \*****************************/

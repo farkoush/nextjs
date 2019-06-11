@@ -55,7 +55,21 @@ var Header = function Header() {
       lineNumber: 13
     },
     __self: this
-  }, "About")));
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Contact")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -9847,7 +9861,7 @@ var Page = function Page(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fpost&absolutePagePath=C%3A%5Cwamp%5Cwww%5Chello-next%5Cpages%5Cpost.js ***!
   \*********************************************************************************************************************/
@@ -9870,5 +9884,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=post.js.map

@@ -55,7 +55,21 @@ var Header = function Header() {
       lineNumber: 13
     },
     __self: this
-  }, "About")));
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Contact")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -9815,7 +9829,8 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/post?title=".concat(props.children),
+    as: "/p/".concat(props.id),
+    href: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -9827,11 +9842,11 @@ var PostLink = function PostLink(props) {
       lineNumber: 7
     },
     __self: this
-  }, props.children)));
+  }, props.title)));
 };
 
 function Blog() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("layout", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -9850,26 +9865,30 @@ function Blog() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
-    children: "Hello Next.js",
+    id: "hello-nextjs",
+    title: "Hello Next.js",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
-    children: "Learn Next.js is awesome",
+    id: "learn-nextjs",
+    title: "Learn Next.js is awesome",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
+    id: "deploy-nextjs",
+    title: "Deploy apps with Zeit",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Deploy apps with Zeit")));
+  })));
 }
 
 /***/ }),
